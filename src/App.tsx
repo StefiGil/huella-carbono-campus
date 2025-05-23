@@ -2,7 +2,7 @@ import { CarbonFootprintDashboard } from "@/components/carbon-footprint-dashboar
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-white to-gray-50 dark:from-gray-950 dark:to-gray-900">
+    <main className="min-h-screen p-12">
       <CarbonFootprintDashboard />
     </main>
   )

@@ -8,6 +8,8 @@ import { ConsumptionChart } from "@/components/consumption-chart"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { motion } from "framer-motion"
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Cell, ResponsiveContainer } from "recharts"
+// @ts-ignore
+import mockData from "../../public/carbonData.json"
 
 interface ConsumptionData {
   month: string
@@ -41,29 +43,6 @@ export function CarbonFootprintDashboard() {
         // const response = await fetch('/carbon-data.json');
         // const data = await response.json();
 
-        // For demo purposes, using the data provided in the prompt
-        const mockData: CarbonData = {
-          title: "Huella de Carbono - Facultad",
-          data: [
-            { month: "enero", year: 2024, consumption: 310 },
-            { month: "febrero", year: 2024, consumption: 340 },
-            { month: "marzo", year: 2024, consumption: 370 },
-            { month: "abril", year: 2024, consumption: 420 },
-            { month: "mayo", year: 2024, consumption: 390 },
-            { month: "junio", year: 2024, consumption: 450 },
-          ],
-          summary: {
-            totalConsumption: 2280,
-            carbonFootprint: 0.91,
-          },
-          breakdown: [
-            { category: "Calefacción", percentage: 45 },
-            { category: "Iluminación", percentage: 30 },
-            { category: "Equipos electrónicos", percentage: 15 },
-            { category: "Otros", percentage: 10 },
-          ],
-        }
-
         setCarbonData(mockData)
       } catch (error) {
         console.error("Error fetching data:", error)
@@ -92,9 +71,9 @@ export function CarbonFootprintDashboard() {
   }
 
   return (
-    <div className="container mx-auto py-10 px-4">
+    <div className="container mx-auto py-14 px-8 text-lg">
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
-        <h1 className="text-3xl font-bold text-center mb-8 text-emerald-600 dark:text-emerald-400">
+        <h1 className="text-3xl font-bold text-center mb-8 text-emerald-600 dark:text-emerald-500">
           {carbonData.title}
         </h1>
 
@@ -145,10 +124,12 @@ export function CarbonFootprintDashboard() {
             </CardHeader>
             <CardContent>
               <Tabs defaultValue="breakdown" className="w-full">
+
                 <TabsList className="grid w-full grid-cols-2">
                   <TabsTrigger value="breakdown">Desglose por Categoría</TabsTrigger>
                   <TabsTrigger value="trend">Tendencia Mensual</TabsTrigger>
                 </TabsList>
+                
                 <TabsContent value="breakdown" className="pt-4">
                   <div className="h-[400px]">
                     <ConsumptionChart breakdown={carbonData.breakdown} />
