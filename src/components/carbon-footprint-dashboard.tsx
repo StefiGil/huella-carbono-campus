@@ -57,7 +57,7 @@ export function CarbonFootprintDashboard() {
         <div className="flex gap-4 mb-6">
           <div>
             <label className="text-sm font-medium">Desde:</label>
-            <select className="border rounded px-2 py-1 ml-2" value={mesDesde} onChange={(e) => setMesDesde(e.target.value)}>
+            <select className= "border rounded-md px-2 py-1 ml-2 text-gray-700"  value={mesDesde} onChange={(e) => setMesDesde(e.target.value)}>
               {MESES.map((m) => (
                 <option key={m} value={m}>{m}</option>
               ))}
@@ -65,9 +65,9 @@ export function CarbonFootprintDashboard() {
           </div>
           <div>
             <label className="text-sm font-medium">Hasta:</label>
-            <select className="border rounded px-2 py-1 ml-2" value={mesHasta} onChange={(e) => setMesHasta(e.target.value)}>
+            <select className= "border rounded-md px-2 py-1 ml-2 text-gray-700"  value={mesHasta} onChange={(e) => setMesHasta(e.target.value)}>
               {MESES.map((m) => (
-                <option key={m} value={m}>{m}</option>
+                <option className="px-2" key={m} value={m}>{m}</option>
               ))}
             </select>
           </div>

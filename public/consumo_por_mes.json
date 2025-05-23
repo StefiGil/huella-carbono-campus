@@ -115,6 +115,167 @@
           "percentage": 10.0
         }
       ]
+    },
+    {
+      "month": "junio",
+      "year": 2024,
+      "consumption": 360.0,
+      "breakdown": [
+        {
+          "category": "Calefacción",
+          "percentage": 20.0
+        },
+        {
+          "category": "Iluminación",
+          "percentage": 55.0
+        },
+        {
+          "category": "Equipos electrónicos",
+          "percentage": 15.0
+        },
+        {
+          "category": "Otros",
+          "percentage": 10.0
+        }
+      ]
+    },
+    {
+      "month": "julio",
+      "year": 2024,
+      "consumption": 330.0,
+      "breakdown": [
+        {
+          "category": "Calefacción",
+          "percentage": 15.0
+        },
+        {
+          "category": "Iluminación",
+          "percentage": 60.0
+        },
+        {
+          "category": "Equipos electrónicos",
+          "percentage": 15.0
+        },
+        {
+          "category": "Otros",
+          "percentage": 10.0
+        }
+      ]
+    },
+    {
+      "month": "agosto",
+      "year": 2024,
+      "consumption": 310.0,
+      "breakdown": [
+        {
+          "category": "Calefacción",
+          "percentage": 10.0
+        },
+        {
+          "category": "Iluminación",
+          "percentage": 60.0
+        },
+        {
+          "category": "Equipos electrónicos",
+          "percentage": 20.0
+        },
+        {
+          "category": "Otros",
+          "percentage": 10.0
+        }
+      ]
+    },
+    {
+      "month": "septiembre",
+      "year": 2024,
+      "consumption": 320.0,
+      "breakdown": [
+        {
+          "category": "Calefacción",
+          "percentage": 12.0
+        },
+        {
+          "category": "Iluminación",
+          "percentage": 58.0
+        },
+        {
+          "category": "Equipos electrónicos",
+          "percentage": 20.0
+        },
+        {
+          "category": "Otros",
+          "percentage": 10.0
+        }
+      ]
+    },
+    {
+      "month": "octubre",
+      "year": 2024,
+      "consumption": 340.0,
+      "breakdown": [
+        {
+          "category": "Calefacción",
+          "percentage": 20.0
+        },
+        {
+          "category": "Iluminación",
+          "percentage": 50.0
+        },
+        {
+          "category": "Equipos electrónicos",
+          "percentage": 20.0
+        },
+        {
+          "category": "Otros",
+          "percentage": 10.0
+        }
+      ]
+    },
+    {
+      "month": "noviembre",
+      "year": 2024,
+      "consumption": 360.0,
+      "breakdown": [
+        {
+          "category": "Calefacción",
+          "percentage": 30.0
+        },
+        {
+          "category": "Iluminación",
+          "percentage": 45.0
+        },
+        {
+          "category": "Equipos electrónicos",
+          "percentage": 15.0
+        },
+        {
+          "category": "Otros",
+          "percentage": 10.0
+        }
+      ]
+    },
+    {
+      "month": "diciembre",
+      "year": 2024,
+      "consumption": 390.0,
+      "breakdown": [
+        {
+          "category": "Calefacción",
+          "percentage": 40.0
+        },
+        {
+          "category": "Iluminación",
+          "percentage": 35.0
+        },
+        {
+          "category": "Equipos electrónicos",
+          "percentage": 15.0
+        },
+        {
+          "category": "Otros",
+          "percentage": 10.0
+        }
+      ]
     }
   ]
 }

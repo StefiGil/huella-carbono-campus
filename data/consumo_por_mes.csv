@@ -1,21 +1,49 @@
 month,year,consumption,category,percentage
-enero,2024,310,Calefacción,45
-enero,2024,310,Iluminación,30
-enero,2024,310,Equipos electrónicos,15
+enero,2024,310,Climatización,30
+enero,2024,310,Iluminación,35
+enero,2024,310,Equipos electrónicos,25
 enero,2024,310,Otros,10
-febrero,2024,340,Calefacción,42
-febrero,2024,340,Iluminación,32
-febrero,2024,340,Equipos electrónicos,16
+febrero,2024,340,Climatización,28
+febrero,2024,340,Iluminación,38
+febrero,2024,340,Equipos electrónicos,24
 febrero,2024,340,Otros,10
-marzo,2024,370,Calefacción,35
-marzo,2024,370,Iluminación,40
-marzo,2024,370,Equipos electrónicos,15
+marzo,2024,370,Calefacción,20
+marzo,2024,370,Iluminación,45
+marzo,2024,370,Equipos electrónicos,25
 marzo,2024,370,Otros,10
 abril,2024,420,Calefacción,30
 abril,2024,420,Iluminación,45
 abril,2024,420,Equipos electrónicos,15
 abril,2024,420,Otros,10
-mayo,2024,390,Calefacción,25
-mayo,2024,390,Iluminación,50
-mayo,2024,390,Equipos electrónicos,15
+mayo,2024,390,Calefacción,40
+mayo,2024,390,Iluminación,40
+mayo,2024,390,Equipos electrónicos,10
 mayo,2024,390,Otros,10
+junio,2024,360,Calefacción,50
+junio,2024,360,Iluminación,35
+junio,2024,360,Equipos electrónicos,10
+junio,2024,360,Otros,5
+julio,2024,330,Calefacción,48
+julio,2024,330,Iluminación,35
+julio,2024,330,Equipos electrónicos,12
+julio,2024,330,Otros,5
+agosto,2024,310,Calefacción,42
+agosto,2024,310,Iluminación,40
+agosto,2024,310,Equipos electrónicos,13
+agosto,2024,310,Otros,5
+septiembre,2024,320,Calefacción,25
+septiembre,2024,320,Iluminación,50
+septiembre,2024,320,Equipos electrónicos,20
+septiembre,2024,320,Otros,5
+octubre,2024,340,Calefacción,15
+octubre,2024,340,Iluminación,55
+octubre,2024,340,Equipos electrónicos,25
+octubre,2024,340,Otros,5
+noviembre,2024,360,Calefacción,10
+noviembre,2024,360,Iluminación,60
+noviembre,2024,360,Equipos electrónicos,25
+noviembre,2024,360,Otros,5
+diciembre,2024,390,Climatización,32
+diciembre,2024,390,Iluminación,38
+diciembre,2024,390,Equipos electrónicos,20
+diciembre,2024,390,Otros,10
