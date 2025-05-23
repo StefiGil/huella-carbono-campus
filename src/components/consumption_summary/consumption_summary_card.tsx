@@ -3,7 +3,7 @@ import {ConsumptionSummary} from "@/components/consumption_summary/consumption-s
 import type {FacturaExtendida} from "@/lib/definitions.ts";
 import {calcularResumen} from "@/lib/calculate_carbon_data.ts";
 
-export const ConsumptionSummaryCard = ({datosFiltrados} : {datosFiltrados: FacturaExtendida[]}) => {
+export const ConsumptionSummaryCard = ({datosFiltrados, mesDesde, mesHasta} : {datosFiltrados: FacturaExtendida[], mesDesde : string, mesHasta : string}) => {
 
     const resumen = calcularResumen(datosFiltrados)
     return <Card className="shadow-md h-full">
@@ -12,7 +12,7 @@ export const ConsumptionSummaryCard = ({datosFiltrados} : {datosFiltrados: Factu
             <CardDescription>Totales para el período seleccionado</CardDescription>
         </CardHeader>
         <CardContent>
-            <ConsumptionSummary summary={resumen}/>
+            <ConsumptionSummary summary={resumen} mesHasta={mesHasta} mesDesde={mesDesde}/>
         </CardContent>
     </Card>
 }

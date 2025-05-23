@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import { CircleOff, Leaf } from "lucide-react"
 import type {Resumen} from "@/lib/definitions.ts";
 
-export function ConsumptionSummary({ summary }: {summary: Resumen}) {
+export function ConsumptionSummary({ summary, mesDesde, mesHasta }: {summary: Resumen , mesDesde : string, mesHasta : string}) {
   return (
     <div className="space-y-6">
       <motion.div
@@ -40,7 +40,7 @@ export function ConsumptionSummary({ summary }: {summary: Resumen}) {
         className="text-sm text-gray-500 dark:text-gray-400 mt-4 italic text-center"
       >
         Equivalente a {Math.round(summary.carbonFootprint * 1000)} kg de CO₂
-        <div className="mt-2 text-xs">Datos acumulados de 6 meses (Enero - Junio 2024)</div>
+        <div className="mt-2 text-xs">Datos acumulados ({mesDesde} - {mesHasta} 2024)</div>
       </motion.div>
     </div>
   )
