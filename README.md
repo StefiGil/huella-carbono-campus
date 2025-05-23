@@ -47,7 +47,7 @@ O si usás pnpm:
 ```bash
 pnpm install
 ```
-Para convertir el archivo consumo_categorias.csv a consumo_por_mes.json, ejecutá:
+Para convertir el archivo consumo_por_mes.csv a consumo_por_mes.json, ejecutá:
 ```bash
 cd scripts
 python convertir_csv_a_json.py
