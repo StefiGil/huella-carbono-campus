@@ -1,15 +1,10 @@
 "use client"
 
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table.tsx"
 import { motion } from "framer-motion"
+import type {FacturaExtendida} from "@/lib/definitions.ts";
 
-interface ConsumptionData {
-  month: string
-  year: number
-  consumption: number
-}
-
-export function ConsumptionTable({ data }: { data: ConsumptionData[] }) {
+export function ConsumptionTable({ data }: { data: FacturaExtendida[] }) {
   // Function to capitalize first letter
   const capitalize = (str: string) => str.charAt(0).toUpperCase() + str.slice(1)
 

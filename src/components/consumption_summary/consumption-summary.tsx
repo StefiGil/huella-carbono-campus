@@ -2,15 +2,9 @@
 
 import { motion } from "framer-motion"
 import { CircleOff, Leaf } from "lucide-react"
+import type {Resumen} from "@/lib/definitions.ts";
 
-interface SummaryProps {
-  summary: {
-    totalConsumption: number
-    carbonFootprint: number
-  }
-}
-
-export function ConsumptionSummary({ summary }: SummaryProps) {
+export function ConsumptionSummary({ summary }: {summary: Resumen}) {
   return (
     <div className="space-y-6">
       <motion.div

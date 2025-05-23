@@ -2,7 +2,7 @@ import { CarbonFootprintDashboard } from "@/components/carbon-footprint-dashboar
 
 export default function Home() {
   return (
-    <main className="min-h-screen p-12">
+    <main className="w-screen min-h-screen p-12">
       <CarbonFootprintDashboard />
     </main>
   )

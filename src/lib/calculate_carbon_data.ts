@@ -1,30 +1,4 @@
-export type Categoria = {
-  category: string
-  percentage: number
-}
-
-export type FacturaExtendida = {
-  month: string
-  year: number
-  consumption: number
-  breakdown: Categoria[]
-}
-
-export type Resumen = {
-  totalConsumption: number
-  carbonFootprint: number
-}
-
-export type BreakdownCalculado = {
-  category: string
-  consumo: number
-  percentage: number
-}
-
-const MESES = [
-  "enero", "febrero", "marzo", "abril", "mayo", "junio",
-  "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
-]
+import {type BreakdownCalculado, type FacturaExtendida, MESES, type Resumen} from "@/lib/definitions.ts";
 
 // Factor de emisión estándar (tCO₂/MWh)
 const FE = 0.408
