@@ -1,0 +1,120 @@
+{
+  "title": "Huella de Carbono - Campus",
+  "data": [
+    {
+      "month": "enero",
+      "year": 2024,
+      "consumption": 310.0,
+      "breakdown": [
+        {
+          "category": "Calefacción",
+          "percentage": 45.0
+        },
+        {
+          "category": "Iluminación",
+          "percentage": 30.0
+        },
+        {
+          "category": "Equipos electrónicos",
+          "percentage": 15.0
+        },
+        {
+          "category": "Otros",
+          "percentage": 10.0
+        }
+      ]
+    },
+    {
+      "month": "febrero",
+      "year": 2024,
+      "consumption": 340.0,
+      "breakdown": [
+        {
+          "category": "Calefacción",
+          "percentage": 42.0
+        },
+        {
+          "category": "Iluminación",
+          "percentage": 32.0
+        },
+        {
+          "category": "Equipos electrónicos",
+          "percentage": 16.0
+        },
+        {
+          "category": "Otros",
+          "percentage": 10.0
+        }
+      ]
+    },
+    {
+      "month": "marzo",
+      "year": 2024,
+      "consumption": 370.0,
+      "breakdown": [
+        {
+          "category": "Calefacción",
+          "percentage": 35.0
+        },
+        {
+          "category": "Iluminación",
+          "percentage": 40.0
+        },
+        {
+          "category": "Equipos electrónicos",
+          "percentage": 15.0
+        },
+        {
+          "category": "Otros",
+          "percentage": 10.0
+        }
+      ]
+    },
+    {
+      "month": "abril",
+      "year": 2024,
+      "consumption": 420.0,
+      "breakdown": [
+        {
+          "category": "Calefacción",
+          "percentage": 30.0
+        },
+        {
+          "category": "Iluminación",
+          "percentage": 45.0
+        },
+        {
+          "category": "Equipos electrónicos",
+          "percentage": 15.0
+        },
+        {
+          "category": "Otros",
+          "percentage": 10.0
+        }
+      ]
+    },
+    {
+      "month": "mayo",
+      "year": 2024,
+      "consumption": 390.0,
+      "breakdown": [
+        {
+          "category": "Calefacción",
+          "percentage": 25.0
+        },
+        {
+          "category": "Iluminación",
+          "percentage": 50.0
+        },
+        {
+          "category": "Equipos electrónicos",
+          "percentage": 15.0
+        },
+        {
+          "category": "Otros",
+          "percentage": 10.0
+        }
+      ]
+    }
+  ]
+}

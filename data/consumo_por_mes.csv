@@ -1,0 +1,21 @@
+month,year,consumption,category,percentage
+enero,2024,310,Calefacción,45
+enero,2024,310,Iluminación,30
+enero,2024,310,Equipos electrónicos,15
+enero,2024,310,Otros,10
+febrero,2024,340,Calefacción,42
+febrero,2024,340,Iluminación,32
+febrero,2024,340,Equipos electrónicos,16
+febrero,2024,340,Otros,10
+marzo,2024,370,Calefacción,35
+marzo,2024,370,Iluminación,40
+marzo,2024,370,Equipos electrónicos,15
+marzo,2024,370,Otros,10
+abril,2024,420,Calefacción,30
+abril,2024,420,Iluminación,45
+abril,2024,420,Equipos electrónicos,15
+abril,2024,420,Otros,10
+mayo,2024,390,Calefacción,25
+mayo,2024,390,Iluminación,50
+mayo,2024,390,Equipos electrónicos,15
+mayo,2024,390,Otros,10
