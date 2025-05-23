@@ -1,6 +1,6 @@
 # 🌱 Huella de Carbono - Campus
 
-Este proyecto es una aplicación web educativa que calcula y visualiza la huella de carbono de un campus universitario a partir de datos de consumo eléctrico. Está desarrollado con **React + TypeScript + Vite + shadcn/ui**, e integra visualizaciones dinámicas, filtros por rango de meses y cálculos automáticos.
+Este proyecto es una aplicación web que calcula y visualiza la huella de carbono de un campus universitario a partir de datos de consumo eléctrico. Está desarrollado con **React + TypeScript + Vite + shadcn/ui**, e integra visualizaciones dinámicas, filtros por rango de meses y cálculos automáticos.
 
 ---
 
