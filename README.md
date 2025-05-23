@@ -12,14 +12,14 @@ Este proyecto es una aplicación web educativa que calcula y visualiza la huella
 
 ## ⚙️ Tecnologías utilizadas
 
-- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [TailwindCSS](https://tailwindcss.com/)
-- [shadcn/ui](https://ui.shadcn.com/) (componentes accesibles y modernos)
-- [Recharts](https://recharts.org/) (visualización de datos)
-- [Framer Motion](https://www.framer.com/motion/) (animaciones)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Recharts](https://recharts.org/)
+- [Framer Motion](https://www.framer.com/motion/)
 - [Python](https://www.python.org/) (para transformar CSV → JSON)
-
 ---
 
 ## 🚀 Requisitos previos
@@ -37,7 +37,7 @@ Asegurate de tener instalado:
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/huella-carbono-campus.git
+git clone https://github.com/StefiGil/huella-carbono-campus.git
 cd huella-carbono-campus
 ```
 ```bash
